@@ -6,6 +6,7 @@ import './App.css'
 import { BrowserRouter, Route, Router } from 'react-router-dom'
 import AddCar from './components/AddCar'
 import Home from './components/Home'
+import Viewcars from './components/Viewcars'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <>
       <Home />
       <AddCar/>
+      <Viewcars />
 
 
     </>
